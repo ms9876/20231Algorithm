@@ -20,82 +20,72 @@ int main() {
 
 #pragma region 1902
 int n;
-void f(int x) {
+void f2(int x) {
 	if (x == 0) {
 		return;
 	}
 	cout << x << endl;
-	f(x - 1);
+	f2(x - 1);
 }
 
 int main() {
 	cin >> n;
-	f(n);
+	f2(n);
 }
 #pragma endregion
 
 #pragma region 홀수 출력하기 1904
 int o, l;
 
-void f(int a) {
+void f3(int a) {
 	if (a % 2 != 0) {
 		cout << a << " ";
 	}
 	if (a >= l) {
 		return;
 	}
-	f(a + 1);
+	f3(a + 1);
 }
 
 int main() {
 	cin >> o >> l;
-	f(o);
+	f3(o);
 }
 #pragma endregion
 
 #pragma region n까지의 합 1905
 int n, sum = 0;
-void f(int x) {
+void f4(int x) {
 	if (x > n) {
 		return;
 	}
 	sum += x;
-	f(x + 1);
+	f4(x + 1);
 }
 
 int main() {
 	cin >> n;
-	f(1);
+	f4(1);
 	cout << sum;
 }
 #pragma endregion
 
 #pragma region 팩토리얼 계산 1912
 int n;
-int f(int x) {
-	if (x == 0) {
-		return;
+int F5(int n)
+{
+	if (n <= 2)
+		return 1;
+	else {
+		return F5(n - 1) + F5(n - 2);
 	}
-	return f(x - 1) * x;
 }
 
 int main() {
+	cout << "몇번째 수가 알고 싶으십니까? : ";
 	cin >> n;
-	f(n);
-}
-#pragma endregion
 
-#pragma region 피보나치 1915
-int n;
-
-int f(int x) {
-	if (x <= 27)
-		return;
-	return f(x - 2) + f(x - 1);
-}
-int main() {
-	cin >> n;
-	cout << f(n);
+	cout << F5(n) << "입니다";
 }
 #pragma endregion
 
