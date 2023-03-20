@@ -3,22 +3,22 @@ using namespace std;
 
 // 재귀 함수
 #pragma region 피보나치 수열 1916
-// 메모이제이션 => DP(동적 프로그램)
-//int memo[201];
-//int f(int x) {
-//	// 종료조건
-//	if (memo[x]) 
-//		return memo[x];
-//	if (x <= 2)
-//		return 1;
-//	return memo[x] = f(x - 1) + f(x - 2);
-//}
-//
-//int main() {
-//	int n;
-//	cin >> n;
-//	cout << f(n) << endl;
-//}
+ //메모이제이션 => DP(동적 프로그램)
+int memo[201];
+int f(int x) {
+	// 종료조건
+	if (memo[x]) 
+		return memo[x];
+	if (x <= 2)
+		return 1;
+	return memo[x] = f(x - 1) + f(x - 2);
+}
+
+int main() {
+	int n;
+	cin >> n;
+	cout << f(n) << endl;
+}
 #pragma endregion
 
 //상태 정의
@@ -133,3 +133,23 @@ int main() {
 }
 #pragma endregion
 
+#pragma region 계단 오르기6-1 2836
+int n, k, m = 2;
+
+int s(int oo, int y) {
+
+    if (oo == m || oo > n || y >= k) {
+        return 0;
+    }
+    if (oo == n) {
+        return 1;
+    }
+
+    return s(oo + 1, y + 1) + s(oo + 2, y + 1) + s(oo + 3, y + 1);
+}
+int main() {
+    cin >> n >> m >> k;
+    cout << s(0, 0);
+    
+}
+#pragma endregion
