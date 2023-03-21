@@ -2,23 +2,35 @@
 using namespace std;
 
 
+#pragma region 최대 gcd 구하기
+#include <iostream>
+using namespace std;
 
-#pragma region 퍼즐조각 2664 (코이스터디)
-int n, m;
 int main() {
-	cin >> n >> m;
+	int n;
+	cin >> n;
 
-	if (n == 1 || m == 1) {
-		cout << "YES";
-	}	
-	else if (n == 2 && m == 2){
-		cout << "YES";
-	}
-	else {
-		cout << "NO";
-	}
+	cout << n / 2;
 }
 #pragma endregion
+
+
+//#pragma region 퍼즐조각 2664 (코이스터디)
+//int n, m;
+//int main() {
+//	cin >> n >> m;
+//
+//	if (n == 1 || m == 1) {
+//		cout << "YES";
+//	}	
+//	else if (n == 2 && m == 2){
+//		cout << "YES";
+//	}
+//	else {
+//		cout << "NO";
+//	}
+//}
+//#pragma endregion
 //#pragma region 벽장문 이동 4439
 //int n, m;
 //int door1, door2;
