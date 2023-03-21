@@ -1,7 +1,36 @@
 #include <iostream>
 using namespace std;
 
-#pragma region 벽장문 이동 4439
+#pragma region 문제 풀이 시도
+int n, k;
+int door1, door2;
+int arr[21] = { 0 };
+int move[21][21];
+
+int solve(int d1, int d2, int cnt) {
+	if (cnt > k) {
+		return 0;
+	}
+	if (n == d1 || n == d2) {
+		cnt++;
+		return 1;
+	}
+}
+
+int main() {
+	cin >> n;
+	cin >> door1 >> door2;
+	cin >> k;
+
+	for (int i = 0; i <= k; i++) {
+		cin >> arr[i];
+	}
+
+	cout << solve(door1, door2, 0);
+}
+#pragma endregion
+
+#pragma region 정답
 int n, m;
 int door1, door2;
 int arr[21];
