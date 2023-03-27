@@ -81,7 +81,16 @@
     <ClCompile Include="시간복잡도.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="순사탐색.cpp">
+    <ClCompile Include="순차탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="이진탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1부터 n까지의 합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수 찾기 1920.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
