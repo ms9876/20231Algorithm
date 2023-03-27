@@ -75,5 +75,14 @@
     <ClCompile Include="퍼즐조각 2664 (코이스터디).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="오븐 시계 2525.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="시간복잡도.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="순사탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
