@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int n, k, cnt;
+int n, k, total;
 
 // 어떤 상태를 정의할거냐
 // 현재 위치, 경우당 카운트
@@ -13,7 +13,7 @@ void s(int x, int y) {
 
     // 계단에 올랐으니 카운팅을 해야함.
     if (x == n) {
-        cnt++;
+        total++;
         return;
     }
 
@@ -24,5 +24,5 @@ void s(int x, int y) {
 int main() {
     cin >> n >> k;
     s(0, 0);
-    cout << cnt;
+    cout << total;
 }

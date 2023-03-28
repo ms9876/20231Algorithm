@@ -4,7 +4,7 @@ using namespace std;
 
 vector<int> v;
 int k, n;
-long long vn, low, high, mid, cnt;
+long long vn, low, high, mid, total;
 long long imax, result;
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -25,12 +25,12 @@ int main() {
 	high = imax;
 	while (low <= high) {
 		mid = (low + high) / 2; // 랜선을 분환할 단위
-		cnt = 0;
+		total = 0;
 		for (int i = 0; i < k; i++) {
-			cnt += v[i] / mid;
+			total += v[i] / mid;
 		}
 
-		if (cnt >= n) { // 더 많이 잘랐을 때
+		if (total >= n) { // 더 많이 잘랐을 때
 			low = mid + 1; 
 			if (result < mid) {
 				result = mid;
