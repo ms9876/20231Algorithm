@@ -99,5 +99,11 @@
     <ClCompile Include="나무 자르기 2805.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="통계학 2108.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="다리 놓기 1010.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
