@@ -2,9 +2,9 @@
 #include <vector>
 using namespace std;
 
-vector<int> v;
+vector<int> A;
 int k, n;
-long long vn, low, high, mid, total;
+long long vn, low, high, mid, cnt;
 long long imax, result;
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -14,10 +14,10 @@ int main() {
 	cin >> k >> n;
 	for (int i = 0; i < k; i++) {
 		cin >> vn;
-		v.push_back(vn);
+		A.push_back(vn);
 
-		if (imax < v[i])
-			imax = v[i];
+		if (imax < A[i])
+			imax = A[i];
 	}
 	low = 1;
 	// 1. 정렬에서 가장 뒤에 있는 것.
@@ -25,12 +25,12 @@ int main() {
 	high = imax;
 	while (low <= high) {
 		mid = (low + high) / 2; // 랜선을 분환할 단위
-		total = 0;
+		cnt = 0;
 		for (int i = 0; i < k; i++) {
-			total += v[i] / mid;
+			cnt += A[i] / mid;
 		}
 
-		if (total >= n) { // 더 많이 잘랐을 때
+		if (cnt >= n) { // 더 많이 잘랐을 때
 			low = mid + 1; 
 			if (result < mid) {
 				result = mid;

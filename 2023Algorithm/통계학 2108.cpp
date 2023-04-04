@@ -4,7 +4,7 @@
 
 using namespace std;
 
-vector <int> v;
+vector <int> A;
 int n;
 int main() {
 	// »ê¼ú Æò±Õ :
@@ -12,5 +12,5 @@ int main() {
 	// Áß¾Ó°ª : 
 	// ÃÖºó°ª : 
 	// ¹üÀ§ :
-	cout << (v.end() - 1) - v.begin();
+	cout << (A.end() - 1) - A.begin();
 }

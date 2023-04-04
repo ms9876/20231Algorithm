@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int n, k, total;
+int n, k, cnt;
 
 void s(int x, int y) {
     if (x > n || y >= k) {
@@ -9,7 +9,7 @@ void s(int x, int y) {
     }
 
     if (x == n) {
-        total++;
+        cnt++;
         return;
     }
 
@@ -20,5 +20,5 @@ void s(int x, int y) {
 int main() {
     cin >> n >> k;
     s(0, 0);
-    cout << total;
+    cout << cnt;
 }

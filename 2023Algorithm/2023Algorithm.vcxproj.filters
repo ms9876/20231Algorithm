@@ -105,5 +105,8 @@
     <ClCompile Include="다리 놓기 1010.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="k번째 수 1300.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

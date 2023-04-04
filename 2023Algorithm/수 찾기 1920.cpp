@@ -5,7 +5,7 @@ using namespace std;
 
 int n, vn;
 int m, vm;
-vector<int> v;
+vector<int> A;
 
 int bisearch(int x) {
 	int low = 0;
@@ -13,9 +13,9 @@ int bisearch(int x) {
 
 	while (low <= high) {
 		int mid = (low + high) / 2;
-		if (v[mid] == x) return 1;
-		else if (v[mid] > x) high = mid - 1;
-		else if (v[mid] < x) low = mid + 1;
+		if (A[mid] == x) return 1;
+		else if (A[mid] > x) high = mid - 1;
+		else if (A[mid] < x) low = mid + 1;
 	}
 	return 0;
 }
@@ -29,10 +29,10 @@ int main() {
 	for (int i = 0; i < n; i++)
 	{
 		cin >> vn;
-		v.push_back(vn);
+		A.push_back(vn);
 	}
 
-	sort(v.begin(), v.end());
+	sort(A.begin(), A.end());
 
 	cin >> m;
 	for (int i = 0; i < m; i++)

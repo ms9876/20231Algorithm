@@ -3,9 +3,9 @@
 #include <algorithm>
 using namespace std;
 
-vector<int> v;
+vector<int> A;
 int n, m; // n : 나무의 수, m: 가져가려고 하는 길이
-long long vn, low, high, mid, total, result;
+long long vn, low, high, mid, cnt, result;
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
@@ -14,18 +14,18 @@ int main() {
 	cin >> n >> m;
 	for (int i = 0; i < n; i++) {
 		cin >> vn;
-		v.push_back(vn);
+		A.push_back(vn);
 	}
 	low = 0; // 1 or 0
 
-	high = *max_element(v.begin(), v.end());
+	high = *max_element(A.begin(), A.end());
 	while (low <= high) {
 		mid = (low + high) / 2;
 		for (int i = 0; i < n; i++) {
-			total += v[i] - mid;
+			cnt += A[i] - mid;
 		}
 
-		if (total < m) { // 적을 경우
+		if (cnt < m) { // 적을 경우
 			high = mid - 1;
 		}	
 		else { 
