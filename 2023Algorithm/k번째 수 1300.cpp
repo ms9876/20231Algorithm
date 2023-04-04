@@ -10,7 +10,7 @@ int main()
     cin >> n >> k;
 
     int low = 1;
-    long long  high = n * n;
+    long long int high = k;
     int mid = 0;
     while (low <= high)
     {
