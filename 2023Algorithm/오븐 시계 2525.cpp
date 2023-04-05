@@ -2,19 +2,24 @@
 using namespace std;
 
 int main() {
-	int a, b, c;
-	int h = 0, m = 0;
-	cin >> a >> b >> c;
+    int a, b, c; 
+    int h, m;
 
-	if (b + c < 60) {
-		h = a;
-		m = b + c;
-	}
-	else if (b + c > 60) {
-		h += (b + c) / 60;
-		m = (b + c) % 60;
-	}
+    cin >> a >> b;
+    cin >> c;
 
-	cout << a << " " << b;
+    if (b + c < 60)
+    {
+        h = a;
+        m = b + c;
+    }
+    else
+    {
+        h = (a + int((b + c) / 60)) % 24;
+        m = (b + c) % 60;
+    }
+
+    cout << h << " " << m;
+    return 0;
 
 }
