@@ -114,5 +114,8 @@
     <ClCompile Include="일곱 난쟁이 2309.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="수열 정렬 1015.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
