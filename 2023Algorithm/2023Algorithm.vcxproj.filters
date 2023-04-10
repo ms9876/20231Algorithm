@@ -123,5 +123,11 @@
     <ClCompile Include="프로그래머스 가사 검색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="거꾸로 출력하기3 1402.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0은 빼! 3117.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
