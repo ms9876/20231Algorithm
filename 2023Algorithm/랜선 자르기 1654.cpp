@@ -4,7 +4,7 @@ using namespace std;
 
 vector<int> A;
 int k, n;
-long long vn, low, high, mid, cnt;
+long long num, low, high, mid, cnt;
 long long imax, result;
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -13,8 +13,8 @@ int main() {
 
 	cin >> k >> n;
 	for (int i = 0; i < k; i++) {
-		cin >> vn;
-		A.push_back(vn);
+		cin >> num;
+		A.push_back(num);
 
 		if (imax < A[i])
 			imax = A[i];

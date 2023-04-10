@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int n, vn;
+int n, num;
 int m, vm;
 vector<int> A;
 
@@ -28,8 +28,8 @@ int main() {
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
-		cin >> vn;
-		A.push_back(vn);
+		cin >> num;
+		A.push_back(num);
 	}
 
 	sort(A.begin(), A.end());
