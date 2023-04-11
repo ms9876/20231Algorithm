@@ -135,5 +135,8 @@
     <ClCompile Include="소들의 헤어스타일 3130.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="큰 수 덧셈 3021.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
