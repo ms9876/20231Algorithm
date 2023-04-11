@@ -6,7 +6,7 @@ using namespace std;
 
 stack<int> s;
 string str;
-int sn, result;
+int sn;
 int main() {
 	getline(cin, str);
 	for (int i = 0; i < str.size(); i++) {

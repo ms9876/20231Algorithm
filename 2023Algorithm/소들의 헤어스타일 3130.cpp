@@ -2,16 +2,25 @@
 #include <stack>
 using namespace std;
 
+stack <int> s;
+int n;
+long long int cnt = 0;
+
 int main()
 {
-	int n;
-	stack <int> s;
-	int count = 0;
 	cin >> n;
-	
-	for (int i = 0; i < n; i++) {
-		while(s.empty() && )
+	for (int i = 0; i < n; i++)
+	{
+		int x;
+		cin >> x;
+
+		while (!s.empty() && s.top() <= x) 
+		{
+			s.pop(); 
+		}
+		s.push(x);
+		cnt += s.size() - 1;
 	}
 
-	cout << count;
+	cout << cnt;
 }
