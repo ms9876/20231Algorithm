@@ -9,9 +9,9 @@ int main() {
 		for (int j = 1; j <= n * 2; j++) {
 			if (i + j == n + 1) // 왼쪽 상단
 				cout << "*";
-			else if (i + j == n + 2 * i)  // 오른쪽 상단   i - 5 == j는 안 됨
+			else if (i - n == j)  // 오른쪽 상단  
 				cout << "*";
-			else if (i + j == n + 2 * j) // 왼쪽 하단
+			else if (j - n == i) // 왼쪽 하단
 				cout << "*";
 			else if (i + j == 3 * n + 1) // 오른쪽 하단
 				cout << "*";
