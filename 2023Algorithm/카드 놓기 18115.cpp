@@ -12,7 +12,7 @@ int main() {
 	v.resize(n);
 
 	for (int i = n -1; i >= 0; i--) {
-		cin >> v[n];
+		cin >> v[i];
 	}
 	/*int vn;
 	for (int i = 0; i < vn; i++) {
