@@ -147,5 +147,8 @@
     <ClCompile Include="마름모 출력하기 1371.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="카드 놓기 18115.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
