@@ -1,13 +1,12 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include <queue>
 #include <deque>
 using namespace std;
 
 deque<int> Adq;
 deque<int> Bdq;
-
+//priority_queue(우선순위 큐) 이 친구는 정렬을 해줌 (기본은 내림차순)   
 int result;
 string str;
 
