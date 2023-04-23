@@ -159,5 +159,8 @@
     <ClCompile Include="설탕 배달 2839.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="게임 1072.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

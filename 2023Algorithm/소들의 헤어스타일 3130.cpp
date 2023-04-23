@@ -4,7 +4,7 @@ using namespace std;
 
 stack <int> s;
 int n;
-long long int cnt = 0;
+long long int res = 0;
 
 int main()
 {
@@ -19,8 +19,8 @@ int main()
 			s.pop(); 
 		}
 		s.push(x);
-		cnt += s.size() - 1;
+		res += s.size() - 1;
 	}
 
-	cout << cnt;
+	cout << res;
 }

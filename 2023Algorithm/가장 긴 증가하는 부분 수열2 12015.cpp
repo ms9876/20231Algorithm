@@ -4,7 +4,7 @@
 using namespace std;
 
 vector<int> v;
-int n, cnt, num;
+int n, res, num;
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -18,7 +18,7 @@ int main() {
 
 		if (num > v.back()) { // num이 더 크면? 걍 넣기
 			v.push_back(num);
-			cnt++;
+			res++;
 		}
 		// 1 => 1
 		// 1 2 => 2
@@ -27,5 +27,5 @@ int main() {
 			*iter = num;
 		}
 	}
-	cout << cnt;
+	cout << res;
 }

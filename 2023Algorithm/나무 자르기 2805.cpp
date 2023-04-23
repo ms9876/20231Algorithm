@@ -5,7 +5,7 @@ using namespace std;
 
 vector<int> A;
 int n, m; // n : 나무의 수, m: 가져가려고 하는 길이
-long long num, low, high, mid, cnt, result;
+long long num, low, high, mid, res, result;
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
@@ -22,10 +22,10 @@ int main() {
 	while (low <= high) {
 		mid = (low + high) / 2;
 		for (int i = 0; i < n; i++) {
-			cnt += A[i] - mid;
+			res += A[i] - mid;
 		}
 
-		if (cnt < m) { // 적을 경우
+		if (res < m) { // 적을 경우
 			high = mid - 1;
 		}	
 		else { 

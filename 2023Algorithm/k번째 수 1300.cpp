@@ -4,7 +4,7 @@
 using namespace std;
 
 int n, k;
-int cnt, result;
+int res, result;
 int arr[] = { 1,2,2,3,3,5,5,5,6 };
 vector <int> v = { 1,1,2,2,3,3,4,4,5 };
 
@@ -20,13 +20,13 @@ int main()
     int mid = 0;
     while (low <= high)
     {
-        cnt = 0;
+        res = 0;
         mid = (low + high) / 2;
         for (int i = 1; i <= n; i++)
         {
-            cnt += min(mid / i, n);
+            res += min(mid / i, n);
         }
-        if (cnt < k)
+        if (res < k)
         {
             low = mid + 1;
         }
