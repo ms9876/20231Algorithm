@@ -160,7 +160,10 @@
     <ClCompile Include="n까지의 합 1905.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="N번째 큰 수 2075.cpp" />
+    <ClCompile Include="N번째 큰 수 2075.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="가운데를 말해요 1655.cpp" />
     <ClCompile Include="가장 긴 증가하는 부분 수열2 12015.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
