@@ -18,7 +18,6 @@
 #include <algorithm>
 #include <string>
 using namespace std;
-
 int main() {
 	string str;
 	clock_t start = 0, end;
@@ -32,4 +31,6 @@ int main() {
 	end = clock();
 	cout << end - start << endl;
 	return 0;
+
+	
 }
