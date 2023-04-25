@@ -2,7 +2,7 @@
 #include <queue>
 using namespace std;
 
-int n;
+int s;
 priority_queue<int, vector<int>, greater<>> pq;
 
 int main() {
@@ -10,16 +10,16 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    cin >> n;
+    cin >> s;
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
+    for (int i = 0; i < s; i++) {
+        for (int j = 0; j < s; j++) {
             int num;
             cin >> num;
             pq.push(num);
 
 
-            if (pq.size() > n) {
+            if (pq.size() > s) {
                 pq.pop();
             }
         }

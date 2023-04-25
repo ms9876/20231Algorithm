@@ -1,24 +1,24 @@
 #include <iostream>
 using namespace std;
 
-int t, n, m;
+int t, s, m;
 int main() {
 	cin >> t;
 
 	while (t--) {
 		long long l = 1;
 
-		cin >> n >> m;
+		cin >> s >> m;
 
 		int temp = m;
-		m = n;
-		n = temp;
+		m = s;
+		s = temp;
 
-		if (m > n - m) {
-			m = n - m;
+		if (m > s - m) {
+			m = s - m;
 		}
 
-		for (int i = n; i > n - m; i--)
+		for (int i = s; i > s - m; i--)
 			l *= i;
 		for (int j = m; j >= 1; j--)
 			l /= j;

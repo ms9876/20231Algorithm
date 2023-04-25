@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int n;
+int s;
 void f(int x) {
 	// 종료 조건이 무조건 필요함 (가장 중요)
-	if (x > n) {
+	if (x > s) {
 		return;
 	}
 	cout << x << endl;
@@ -12,6 +12,6 @@ void f(int x) {
 }
 
 int main() {
-	cin >> n;
+	cin >> s;
 	f(1);
 }

@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int n, k, res;
+int s, k, res;
 
 // 어떤 상태를 정의할거냐
 // 현재 위치, 경우당 카운트
 void s(int x, int y) {
     // 종료조건. 계단이 없으니까
-    if (x > n || y >= k) {
+    if (x > s || y >= k) {
         return;
     }
 
     // 계단에 올랐으니 카운팅을 해야함.
-    if (x == n) {
+    if (x == s) {
         res++;
         return;
     }
@@ -22,7 +22,7 @@ void s(int x, int y) {
 }
 
 int main() {
-    cin >> n >> k;
+    cin >> s >> k;
     s(0, 0);
     cout << res;
 }

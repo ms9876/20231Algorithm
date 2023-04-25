@@ -3,13 +3,13 @@
 using namespace std;
 
 stack <int> s;
-int n;
+int s;
 long long int res = 0;
 
 int main()
 {
-	cin >> n;
-	for (int i = 0; i < n; i++)
+	cin >> s;
+	for (int i = 0; i < s; i++)
 	{
 		int x;
 		cin >> x;

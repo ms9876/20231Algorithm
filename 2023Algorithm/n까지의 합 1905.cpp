@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int n, sum = 0;
+int s, sum = 0;
 void f4(int x) {
-	if (x > n) {
+	if (x > s) {
 		return;
 	}
 	sum += x;
@@ -11,7 +11,7 @@ void f4(int x) {
 }
 
 int main() {
-	cin >> n;
+	cin >> s;
 	f4(1);
 	cout << sum;
 }

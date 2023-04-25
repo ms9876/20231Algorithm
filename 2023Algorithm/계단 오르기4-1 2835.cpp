@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int n, k;
+int s, k;
 
 int solve(int oo, int prev, int y) {
     // 종료 조건
-    if (oo > n || y >= k)
+    if (oo > s || y >= k)
         return 0;
-    if (oo == n)
+    if (oo == s)
         return 1;
 
     if (prev == 0) {
@@ -25,6 +25,6 @@ int solve(int oo, int prev, int y) {
 }
 
 int main() {
-    cin >> n >> k;
+    cin >> s >> k;
     cout << solve(0, 0, 0);
 }

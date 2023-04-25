@@ -3,7 +3,7 @@
 using namespace std;
 
 vector<int> A;
-int k, n;
+int k, s;
 long long num, low, high, mid, res;
 long long imax, result;
 int main() {
@@ -11,7 +11,7 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 
-	cin >> k >> n;
+	cin >> k >> s;
 	for (int i = 0; i < k; i++) {
 		cin >> num;
 		A.push_back(num);
@@ -30,7 +30,7 @@ int main() {
 			res += A[i] / mid;
 		}
 
-		if (res >= n) { // 더 많이 잘랐을 때
+		if (res >= s) { // 더 많이 잘랐을 때
 			low = mid + 1; 
 			if (result < mid) {
 				result = mid;

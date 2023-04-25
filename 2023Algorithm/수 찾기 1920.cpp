@@ -3,13 +3,13 @@
 #include <algorithm>
 using namespace std;
 
-int n, num;
+int s, num;
 int m, vm;
 vector<int> A;
 
 int bisearch(int x) {
 	int low = 0;
-	int high = n - 1;
+	int high = s - 1;
 
 	while (low <= high) {
 		int mid = (low + high) / 2;
@@ -25,8 +25,8 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 
-	cin >> n;
-	for (int i = 0; i < n; i++)
+	cin >> s;
+	for (int i = 0; i < s; i++)
 	{
 		cin >> num;
 		A.push_back(num);

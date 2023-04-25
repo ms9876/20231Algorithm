@@ -4,15 +4,15 @@
 using namespace std;
 
 vector<int> v;
-int n, res, num;
+int s, res, num;
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> n;
+	cin >> s;
 	v.push_back(-1);
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < s; i++)
 	{
 		cin >> num;
 

@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int n, k, res;
+int s, k, res;
 
 void s(int x, int y) {
-    if (x > n || y >= k) {
+    if (x > s || y >= k) {
         return;
     }
 
-    if (x == n) {
+    if (x == s) {
         res++;
         return;
     }
@@ -18,7 +18,7 @@ void s(int x, int y) {
 }
 
 int main() {
-    cin >> n >> k;
+    cin >> s >> k;
     s(0, 0);
     cout << res;
 }

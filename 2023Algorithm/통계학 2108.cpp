@@ -4,14 +4,14 @@
 #include <cmath>
 using namespace std;
 vector<int> arr;
-int n, temp, range, mid = 0, most_val, mean = 0;
+int s, temp, range, mid = 0, most_val, mean = 0;
 int number[8001];
 int main() {
     int m = -9999;
 
     bool not_first = false;
-    cin >> n;
-    for (int i = 0; i < n; i++)
+    cin >> s;
+    for (int i = 0; i < s; i++)
     {
         cin >> temp;
         arr.push_back(temp);
@@ -39,7 +39,7 @@ int main() {
         }
     }
     mid = arr[arr.size() / 2];
-    mean = round((float)mean / n);
+    mean = round((float)mean / s);
     range = arr.back() - arr.front();
     cout << mean << '\n' << mid << '\n' << most_val << '\n' << range;
 }
