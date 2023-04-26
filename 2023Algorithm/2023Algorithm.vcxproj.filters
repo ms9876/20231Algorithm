@@ -177,5 +177,11 @@
     <ClCompile Include="문자열 집합 14425.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="생태학 4358.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="터렛 1002.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
