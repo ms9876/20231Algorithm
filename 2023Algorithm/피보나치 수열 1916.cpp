@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
  //메모이제이션 => DP(동적 프로그램)
