@@ -177,7 +177,7 @@
     <ClCompile Include="문자열 집합 14425.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="생태학 4358.cpp">
+    <ClCompile Include="생태학 4358 %28안품%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="터렛 1002.cpp">
@@ -186,7 +186,10 @@
     <ClCompile Include="후위 표기식 1918 .cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="배낭 문제 3740.cpp">
+    <ClCompile Include="배낭 문제 3740 %28안품%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="큐2 18258.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
