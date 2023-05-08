@@ -25,7 +25,10 @@ int main() {
             q.push(x);
         }
         else if (str == "pop") {
-            if (!q.empty()) {
+            if (q.empty()) {
+                cout << -1 << '\n';
+            }
+            else {
                 cout << q.front() << '\n';
                 q.pop();
             }
@@ -37,12 +40,18 @@ int main() {
             cout << q.empty() << '\n';
         }
         else if (str == "front") {
-            if (!q.empty()) {
+            if (q.empty()) {
+                cout << -1 << '\n';
+            }
+            else {
                 cout << q.front() << '\n';
             }
         }
         else if (str == "back") {
-            if (!q.empty()) {
+            if (q.empty()) {
+                cout << -1 << '\n';
+            }
+            else {
                 cout << q.back() << '\n';
             }
         }
