@@ -280,7 +280,10 @@
     <ClCompile Include="카드 놓기 18115.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="큐2 18258.cpp" />
+    <ClCompile Include="카드2 2164.cpp" />
+    <ClCompile Include="큐2 18258.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="큰 수 덧셈 3021.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

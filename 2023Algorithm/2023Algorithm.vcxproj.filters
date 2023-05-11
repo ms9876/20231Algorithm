@@ -192,5 +192,8 @@
     <ClCompile Include="큐2 18258.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="카드2 2164.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
