@@ -2,7 +2,7 @@
 #include <stack>
 #include <string>
 using namespace std;
-string str, ans;
+string str, cnt;
 stack <char> s;
 int main() {
     ios_base::sync_with_stdio(false);
@@ -12,28 +12,28 @@ int main() {
     cin >> str;
 
     for (int i = 0; i < str.size(); i++) {
-        if ('A' <= str[i] && str[i] <= 'Z') { ans += str[i]; continue; }
+        if ('A' <= str[i] && str[i] <= 'Z') { cnt += str[i]; continue; }
 
         if (str[i] == '(') { s.push(str[i]); continue; }
 
         if (str[i] == ')') {
             while (s.top() != '(')
-                ans += s.top(), s.pop();
+                cnt += s.top(), s.pop();
             s.pop();
             continue;
         }
         if (str[i] == '*' || str[i] == '/') {
             while (!s.empty() && (s.top() == '*' || s.top() == '/'))
-                ans += s.top(), s.pop();
+                cnt += s.top(), s.pop();
         }
         else {
             while (!s.empty() && s.top() != '(')
-                ans += s.top(), s.pop();
+                cnt += s.top(), s.pop();
         }
         s.push(str[i]);
     }
 
     while (!s.empty())
-        ans += s.top(), s.pop();
-    cout << ans << '\n';
+        cnt += s.top(), s.pop();
+    cout << cnt << '\n';
 }
