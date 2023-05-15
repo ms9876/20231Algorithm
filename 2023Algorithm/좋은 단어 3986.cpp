@@ -15,7 +15,7 @@ int main() {
 
         for (int i = 0; i < str.size(); i++) {
            
-            if (ch.top() == str[i]) {
+            if (!ch.empty() && ch.top() == str[i]) {
                 ch.pop();
             }
             else {
