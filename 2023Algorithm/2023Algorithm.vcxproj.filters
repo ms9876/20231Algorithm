@@ -207,5 +207,8 @@
     <ClCompile Include="같은 숫자는 싫어 12906 %28프로그래머스%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="카드1 2161.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
