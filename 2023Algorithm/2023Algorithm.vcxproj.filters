@@ -210,5 +210,8 @@
     <ClCompile Include="카드1 2161.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="직사각형에서 탈출 1085.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

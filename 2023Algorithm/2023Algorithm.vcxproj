@@ -286,6 +286,7 @@
     <ClCompile Include="좋은 단어 3986.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="직사각형에서 탈출 1085.cpp" />
     <ClCompile Include="최대 ged 구하기 2649 %28코이스터디%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
