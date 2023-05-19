@@ -256,6 +256,7 @@
     <ClCompile Include="숫자 카드 2  10816.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="쉽게 푸는 문제 1292.cpp" />
     <ClCompile Include="시간복잡도.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
