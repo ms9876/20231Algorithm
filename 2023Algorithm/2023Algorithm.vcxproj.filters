@@ -219,5 +219,8 @@
     <ClCompile Include="쉽게 푸는 문제 1292.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="요세푸스 문제0 11866.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
