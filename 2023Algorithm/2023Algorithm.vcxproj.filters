@@ -225,5 +225,8 @@
     <ClCompile Include="AC 5430.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="덩치 7568.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
