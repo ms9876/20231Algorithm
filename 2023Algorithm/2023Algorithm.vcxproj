@@ -199,6 +199,7 @@
     <ClCompile Include="계단 오르기6-1 2836.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="나는 누구인가 15733.cpp" />
     <ClCompile Include="나무 자르기 2805.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
