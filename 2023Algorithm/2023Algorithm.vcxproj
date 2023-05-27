@@ -221,6 +221,7 @@
     <ClCompile Include="마름모 출력하기 1371.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="모음의 개수  10987.cpp" />
     <ClCompile Include="문자열 집합 14425.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

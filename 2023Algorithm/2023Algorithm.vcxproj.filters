@@ -231,5 +231,8 @@
     <ClCompile Include="나는 누구인가 15733.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="모음의 개수  10987.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
