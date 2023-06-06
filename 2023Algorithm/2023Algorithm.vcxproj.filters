@@ -240,5 +240,11 @@
     <ClCompile Include="최소공배수 1934.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="괄호 회전하기 76502 (프로그래머스).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="보물 1026.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
