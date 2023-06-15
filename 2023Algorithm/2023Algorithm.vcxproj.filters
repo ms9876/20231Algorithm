@@ -246,5 +246,8 @@
     <ClCompile Include="보물 1026.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="베스트셀러 1302.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
