@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include <unordered_map>
 using namespace std;
 
 int n, m;
-map<int, string> poketNum;
-map<string, int> poketStr;
+unordered_map<int, string> poketNum;
+unordered_map<string, int> poketStr;
 
 int main() {
     ios_base::sync_with_stdio(0);
