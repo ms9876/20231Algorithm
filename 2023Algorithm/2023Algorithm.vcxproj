@@ -241,6 +241,7 @@
     <ClCompile Include="문자열 집합 14425.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="바구니 뒤집기  10811.cpp" />
     <ClCompile Include="배낭 문제 3740 %28안품%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -326,6 +327,7 @@
     <ClCompile Include="좋은 단어 3986.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="중복된 숫자 제거 120888.cpp" />
     <ClCompile Include="직사각형에서 탈출 1085.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

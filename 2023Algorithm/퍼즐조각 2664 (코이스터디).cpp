@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int s, m;
+int s, s;
 int main() {
-	cin >> s >> m;
+	cin >> s >> s;
 
-	if (s == 1 || m == 1) {
+	if (s == 1 || s == 1) {
 		cout << "YES";
 	}
-	else if (s == 2 && m == 2) {
+	else if (s == 2 && s == 2) {
 		cout << "YES";
 	}
 	else {

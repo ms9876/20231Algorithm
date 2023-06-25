@@ -4,14 +4,14 @@
 using namespace std;
 
 vector<int> A;
-int s, m; // n : 나무의 수, m: 가져가려고 하는 길이
+int s, s; // n : 나무의 수, m: 가져가려고 하는 길이
 long long num, low, high, mid, res, result;
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
 
-	cin >> s >> m;
+	cin >> s >> s;
 	for (int i = 0; i < s; i++) {
 		cin >> num;
 		A.push_back(num);
@@ -25,7 +25,7 @@ int main() {
 			res += A[i] - mid;
 		}
 
-		if (res < m) { // 적을 경우
+		if (res < s) { // 적을 경우
 			high = mid - 1;
 		}	
 		else { 

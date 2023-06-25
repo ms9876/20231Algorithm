@@ -4,7 +4,7 @@
 #include <unordered_map>
 using namespace std;
 
-int n, m;
+int n, s;
 unordered_map<int, string> poketNum;
 unordered_map<string, int> poketStr;
 
@@ -13,7 +13,7 @@ int main() {
     cin.tie(0);
     cout.tie(0);
 
-    cin >> n >> m;
+    cin >> n >> s;
     string poketmon;
 
     for (int i = 1; i <= n; i++) {
@@ -22,7 +22,7 @@ int main() {
         poketStr[poketmon] = i;
     }
 
-    for (int i = 1; i <= m; i++) {
+    for (int i = 1; i <= s; i++) {
         cin >> poketmon;
         if (isdigit(poketmon[0])) {
             cout << poketNum[atoi(poketmon.c_str())] << "\n";

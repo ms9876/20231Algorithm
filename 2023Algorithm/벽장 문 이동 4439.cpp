@@ -31,13 +31,13 @@ int main() {
 #pragma endregion
 
 #pragma region 정답
-int s, m;
+int s, s;
 int door1, door2;
 int arr[21];
 int answer = 9999; // 큰 값 만들기
 // 열린 문, 찾아가야 될 곳, 카운팅 (제한 사항)
 void solve(int d1, int d2, int dis, int cnt) { // dis는 거리
-	if (m == cnt) {
+	if (s == cnt) {
 		answer = min(answer, dis); // min: 가장 작은 것만 넣주기
 		return;
 	}
@@ -49,9 +49,9 @@ void solve(int d1, int d2, int dis, int cnt) { // dis는 거리
 int main() {
 	cin >> s;
 	cin >> door1 >> door2;
-	cin >> m;
+	cin >> s;
 
-	for (int i = 0; i <= m; i++) {
+	for (int i = 0; i <= s; i++) {
 		cin >> arr[i];
 	}
 	solve(door1, door2, 0, 0);

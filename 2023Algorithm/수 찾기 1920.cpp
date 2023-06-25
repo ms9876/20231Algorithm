@@ -4,7 +4,7 @@
 using namespace std;
 
 int s, num;
-int m, vm;
+int s, vm;
 vector<int> A;
 
 int bisearch(int x) {
@@ -34,8 +34,8 @@ int main() {
 
 	sort(A.begin(), A.end());
 
-	cin >> m;
-	for (int i = 0; i < m; i++)
+	cin >> s;
+	for (int i = 0; i < s; i++)
 	{
 		cin >> vm;
 		cout << bisearch(vm) << '\n';

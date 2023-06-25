@@ -4,7 +4,7 @@
 using namespace std;
 
 int arr[500001];
-int s, m, c;
+int s, s, c;
 
 int main() {
 	ios::sync_with_stdio(false);
@@ -18,8 +18,8 @@ int main() {
 	}
 	sort(arr, arr + s);
 
-	cin >> m;
-	for (int i = 0; i < m; i++) {
+	cin >> s;
+	for (int i = 0; i < s; i++) {
 		cin >> c;
 		cout << upper_bound(arr, arr + s, c) - lower_bound(arr, arr + s, c) << " ";
 	}

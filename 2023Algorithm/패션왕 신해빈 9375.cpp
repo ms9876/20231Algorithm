@@ -28,7 +28,7 @@ using namespace std;
 #pragma region ¼±»ý´Ô ÄÚµå
 int testcase, s, result;
 string name, tag;
-map<string, int> m;
+map<string, int> s;
 int main() {
     cin >> testcase;
     for (int i = 0; i < testcase; i++)
@@ -38,14 +38,14 @@ int main() {
         for (int i = 0; i < s; i++)
         {
             cin >> name >> tag;
-            m[tag]++;
+            s[tag]++;
         }
-        for (const auto& iter : m)
+        for (const auto& iter : s)
         {
             result *= (iter.second +1);
         }
         cout << result - 1 << '\n';
-        m.clear();
+        s.clear();
     }
 }
 #pragma endregion
