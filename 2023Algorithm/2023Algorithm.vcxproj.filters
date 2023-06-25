@@ -264,5 +264,8 @@
     <ClCompile Include="바구니 뒤집기  10811.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="평균 1546.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

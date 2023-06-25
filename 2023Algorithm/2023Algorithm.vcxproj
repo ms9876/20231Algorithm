@@ -370,6 +370,7 @@
     <ClCompile Include="퍼즐조각 2664 (코이스터디).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="평균 1546.cpp" />
     <ClCompile Include="프로그래머스 가사 검색.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
