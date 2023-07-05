@@ -7,7 +7,7 @@ int main() {
     int n, m, a, b;
     cin >> n >> m; // n 바구니 수, m 몇 번 바꿀건지
 
-    int* arr = new int[n]; // 동적 할당된 배열 초기화
+    int* arr = new int[n]; // 동적 할당
 
     for (int i = 0; i < n; i++) {
         arr[i] = i + 1; // 배열 안에 수 넣어주기
