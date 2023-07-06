@@ -280,6 +280,7 @@
     <ClCompile Include="설탕 배달 2839.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="성택이의 은밀한 비밀번호  25372.cpp" />
     <ClCompile Include="세모바퀴 만들기 1679.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
