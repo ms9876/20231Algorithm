@@ -1,12 +1,11 @@
 #include <iostream>
-#include <stack>
+#include <iostream>
 #include <string>
 
 using namespace std;
 
 int cnt, res;
 string s;
-stack<char> st;
 
 int main() {
     ios_base::sync_with_stdio(false);
