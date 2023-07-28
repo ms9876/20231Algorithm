@@ -303,5 +303,14 @@
     <ClCompile Include="소인수분해 11653.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="여름나기 18130.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="크로아티아 알파벳 2941.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수 정렬하기3 10989.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
