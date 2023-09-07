@@ -13,6 +13,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{ac77335d-f0ad-4f30-b9e1-e18931957205}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="가장 큰 운동장 1289.cpp">
@@ -317,6 +320,12 @@
     </ClCompile>
     <ClCompile Include="게임 맵 최단거리 1844.cpp">
       <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="특정 거리의 도시 찾기 18352.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
