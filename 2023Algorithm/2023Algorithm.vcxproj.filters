@@ -333,5 +333,8 @@
     <ClCompile Include="유기농 배추 1012.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="타겟 넘버 43165.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
