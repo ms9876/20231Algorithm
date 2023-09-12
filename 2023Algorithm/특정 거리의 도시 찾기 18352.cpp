@@ -37,7 +37,7 @@ int main() {
 			int next = adj[now][i];
 			if (visited[next] == -1) {
 				q.push(next);
-				visited[adj[now][i]] = visited[now] + 1;
+					visited[adj[now][i]] = visited[now] + 1;
 
 				if (visited[adj[now][i]] == k)
 					answer.push_back(next);
