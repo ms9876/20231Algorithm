@@ -5,14 +5,14 @@ using namespace std;
 
 string arr[101]; // 미로 정보를 저장할 배열
 int n, m; // 미로의 크기 (행, 열)
-int visited[101][101]; // 방문 여부와 최단 거리
+int vis[101][101]; // 방문 여부와 최단 거리
 queue<pair<int, int>> q; // BFS를 위한 큐
 int dx[] = { 1, 0, -1, 0 }; // x 방향
 int dy[] = { 0, 1, 0, -1 }; // y 방향
 
 void BFS(int x, int y) {
     q.push({ x, y }); // 시작 지점을 큐에 넣기
-    visited[x][y] = 1; // 시작 지점을 방문했다고 표시
+    vis[x][y] = 1; // 시작 지점을 방문했다고 표시
 
     while (!q.empty()) { 
         int x = q.front().first;
@@ -27,9 +27,9 @@ void BFS(int x, int y) {
             if (nx >= n || ny >= m) continue;
             if (nx < 0 || ny < 0) continue;
 
-            if (arr[nx][ny] == '1' && visited[nx][ny] == 0) { // 아직 방문하지 않았다면
+            if (arr[nx][ny] == '1' && vis[nx][ny] == 0) { // 아직 방문하지 않았다면
                 q.push({ nx, ny }); // 다음 위치를 큐에 넣기
-                visited[nx][ny] = visited[x][y] + 1; // 거리 갱신
+                vis[nx][ny] = vis[x][y] + 1; // 거리 갱신
             }
         }
     }
@@ -42,5 +42,5 @@ int main() {
 
     BFS(0, 0);
 
-    cout << visited[n - 1][m - 1]; // 최단 거리 출력
+    cout << vis[n - 1][m - 1]; // 최단 거리 출력
 }

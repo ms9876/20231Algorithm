@@ -333,11 +333,20 @@
     <ClCompile Include="유기농 배추 1012.cpp">
       <Filter>백준</Filter>
     </ClCompile>
-    <ClCompile Include="타겟 넘버 43165.cpp">
+    <ClCompile Include="타겟 넘버 43165 %28프로그래머스%29.cpp">
       <Filter>프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="네트워크 43162 (프로그래머스).cpp">
       <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="토마토 7576.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS 1260.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="Test1.cpp">
+      <Filter>Test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
