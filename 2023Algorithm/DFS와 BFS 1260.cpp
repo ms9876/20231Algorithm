@@ -5,7 +5,7 @@ using namespace std;
 
 #define MAX 1001
 
-int N, M, V; 
+int N, M, V;
 int map[MAX][MAX];
 bool visited[MAX];
 queue<int> q;
@@ -21,7 +21,7 @@ void DFS(int v) {
     cout << v << " ";
 
     for (int i = 1; i <= N; i++) {
-        if (map[v][i] == 1 && visited[i] == 0) { 
+        if (map[v][i] == 1 && visited[i] == 0) {
             DFS(i);
         }
     }
@@ -36,11 +36,11 @@ void BFS(int v) {
         v = q.front();
         q.pop();
 
-        for (int i = 0; i < i; i++) {
-            if (map[v][i] == 1 && visited[i] == 0) { 
-                q.push(i);
-                visited[i] = true;
-                cout << i << " ";
+        for (int w = 1; w <= N; w++) {
+            if (map[v][w] == 1 && visited[w] == 0) {
+                q.push(w);
+                visited[w] = true;
+                cout << w << " ";
             }
         }
     }

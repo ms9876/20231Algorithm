@@ -322,6 +322,7 @@
     <ClCompile Include="별 찍기 - 5  2442.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="별 찍기 - 7 2444.cpp" />
     <ClCompile Include="보물 1026.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
