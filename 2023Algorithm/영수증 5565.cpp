@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// ¿µ¼öÁõ 5565
+
 int main() {
 	int n, m, sum = 0;
 	cin >> n;

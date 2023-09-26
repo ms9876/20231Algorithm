@@ -357,5 +357,8 @@
     <ClCompile Include="영수증 5565.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="N번째 큰 수 2693.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
