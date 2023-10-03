@@ -366,5 +366,8 @@
     <ClCompile Include="별 찍기 - 6  2443.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="별 찍기 - 2 2439.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
