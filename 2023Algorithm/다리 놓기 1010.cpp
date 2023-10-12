@@ -1,26 +1,26 @@
 #include <iostream>
 using namespace std;
 
-int t, s, s;
+int t, n, n;
 int main() {
 	cin >> t;
 
 	while (t--) {
 		long long l = 1;
 
-		cin >> s >> s;
+		cin >> n >> n;
 
-		int temp = s;
-		s = s;
-		s = temp;
+		int temp = n;
+		n = n;
+		n = temp;
 
-		if (s > s - s) {
-			s = s - s;
+		if (n > n - n) {
+			n = n - n;
 		}
 
-		for (int i = s; i > s - s; i--)
+		for (int i = n; i > n - n; i--)
 			l *= i;
-		for (int j = s; j >= 1; j--)
+		for (int j = n; j >= 1; j--)
 			l /= j;
 
 		cout << l << endl;

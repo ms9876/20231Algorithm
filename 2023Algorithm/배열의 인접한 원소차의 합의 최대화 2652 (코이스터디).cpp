@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int s, s;
+int n, n;
 
 int  main() {
-	cin >> s >> s;
-	if (s == 1)
+	cin >> n >> n;
+	if (n == 1)
 		cout << 0;
-	else if (s == 2) {
-		cout << s;
+	else if (n == 2) {
+		cout << n;
 	}
-	cout << s * 2;
+	cout << n * 2;
 }

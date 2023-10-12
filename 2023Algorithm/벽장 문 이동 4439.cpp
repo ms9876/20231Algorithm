@@ -2,7 +2,7 @@
 using namespace std;
 
 #pragma region 문제 풀이 시도
-int s, k;
+int n, k;
 int door1, door2;
 int arr[21] = { 0 };
 int move[21][21];
@@ -11,14 +11,14 @@ int solve(int d1, int d2, int cnt) {
 	if (cnt > k) {
 		return 0;
 	}
-	if (s == d1 || s == d2) {
+	if (n == d1 || n == d2) {
 		cnt++;
 		return 1;
 	}
 }
 
 int main() {
-	cin >> s;
+	cin >> n;
 	cin >> door1 >> door2;
 	cin >> k;
 
@@ -31,13 +31,13 @@ int main() {
 #pragma endregion
 
 #pragma region 정답
-int s, s;
+int n, n;
 int door1, door2;
 int arr[21];
 int answer = 9999; // 큰 값 만들기
 // 열린 문, 찾아가야 될 곳, 카운팅 (제한 사항)
 void solve(int d1, int d2, int dis, int cnt) { // dis는 거리
-	if (s == cnt) {
+	if (n == cnt) {
 		answer = min(answer, dis); // min: 가장 작은 것만 넣주기
 		return;
 	}
@@ -47,11 +47,11 @@ void solve(int d1, int d2, int dis, int cnt) { // dis는 거리
 	solve(d1, arr[cnt], dis + abs(arr[cnt] - d2), cnt + 1);
 }
 int main() {
-	cin >> s;
+	cin >> n;
 	cin >> door1 >> door2;
-	cin >> s;
+	cin >> n;
 
-	for (int i = 0; i <= s; i++) {
+	for (int i = 0; i <= n; i++) {
 		cin >> arr[i];
 	}
 	solve(door1, door2, 0, 0);

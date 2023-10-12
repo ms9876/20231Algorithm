@@ -4,7 +4,7 @@
 
 using namespace std;
 
-stack<int> s;
+stack<int> n;
 string str;
 int sn;
 int main() {
@@ -17,26 +17,26 @@ int main() {
 		// 공백
 		else if (str[i] == ' ') {
 			if (sn != 0) {
-				s.push(sn);
+				n.push(sn);
 				sn = 0;
 			}
 			
 		}
 		// 연산자
 		else {
-			int x = s.top();
-			s.pop();
-			int y = s.top();
-			s.pop();
+			int x = n.top();
+			n.pop();
+			int y = n.top();
+			n.pop();
 
 			if (str[i] == '+')
-				s.push(x + y);
+				n.push(x + y);
 			else if (str[i] == '-')
-				s.push(y - x);
+				n.push(y - x);
 			else if (str[i] == '*')
-				s.push(x * y);
+				n.push(x * y);
 			
 		}
 	}
-	cout << s.top();
+	cout << n.top();
 }

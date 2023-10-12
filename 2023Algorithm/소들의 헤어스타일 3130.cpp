@@ -2,24 +2,24 @@
 #include <stack>
 using namespace std;
 
-stack <int> s;
-int s;
+stack <int> n;
+int n;
 long long int res = 0;
 
 int main()
 {
-	cin >> s;
-	for (int i = 0; i < s; i++)
+	cin >> n;
+	for (int i = 0; i < n; i++)
 	{
 		int x;
 		cin >> x;
 
-		while (!s.empty() && s.top() <= x) 
+		while (!n.empty() && n.top() <= x) 
 		{
-			s.pop(); 
+			n.pop(); 
 		}
-		s.push(x);
-		res += s.size() - 1;
+		n.push(x);
+		res += n.size() - 1;
 	}
 
 	cout << res;

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int s, k, res;
+int n, k, res;
 
 // 어떤 상태를 정의할거냐
 // 현재 위치, 경우당 카운트

@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int s, k;
+int n, k;
 int memo[40][40][40];
 int chk[40][40][40];
 // oo의 위치 xx의 위치, k(제한사항)
 int solve(int oo, int xx, int y) {
     // 종료 조건
-    if (oo > s || xx > s || y >= k)
+    if (oo > n || xx > n || y >= k)
         return 0;
-    if (oo == s && xx == s) {
+    if (oo == n && xx == n) {
         return 1;
     }
     if (chk[oo][xx][y] == 1) {
@@ -23,6 +23,6 @@ int solve(int oo, int xx, int y) {
 }
 
 int main() {
-    cin >> s >> k;
+    cin >> n >> k;
     cout << solve(0, 0, 0);
 }

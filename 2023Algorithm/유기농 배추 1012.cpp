@@ -8,7 +8,7 @@ using namespace std;
 int testcase;
 int board[MAX_VTXS][MAX_VTXS];
 bool vis[MAX_VTXS][MAX_VTXS];
-int row, col, num, x, y;
+int row, col, num_n, x, y;
 
 int dy[] = { -1, 1, 0, 0 };
 int dx[] = { 0, 0, -1, 1 };
@@ -39,8 +39,8 @@ int main() {
 
         int cnt = 0;
 
-        cin >> row >> col >> num;
-        for (int i = 0; i < num; i++) {
+        cin >> row >> col >> num_n;
+        for (int i = 0; i < num_n; i++) {
             cin >> x >> y;
             board[y][x] = 1;
         }

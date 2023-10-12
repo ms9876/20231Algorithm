@@ -3,15 +3,15 @@
 
 using namespace std;
 
-unordered_set<char> s;
+unordered_set<char> n;
 
 string solution(string my_string) {
     string answer = "";
 
-    for (char c : s) {
-        if (s.find(c) == s.end()) {
+    for (char c : n) {
+        if (n.find(c) == n.end()) {
             answer += c;
-            s.insert(c);
+            n.insert(c);
         }
     }
 

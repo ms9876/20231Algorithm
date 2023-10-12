@@ -3,19 +3,19 @@
 #include <algorithm>
 using namespace std;
 
-int s, num;
-int s, vm;
-vector<int> A;
+int n, vn;
+int m, vm;
+vector<int> v;
 
 int bisearch(int x) {
 	int low = 0;
-	int high = s - 1;
+	int high = n - 1;
 
 	while (low <= high) {
 		int mid = (low + high) / 2;
-		if (A[mid] == x) return 1;
-		else if (A[mid] > x) high = mid - 1;
-		else if (A[mid] < x) low = mid + 1;
+		if (v[mid] == x) return 1;
+		else if (v[mid] > x) high = mid - 1;
+		else if (v[mid] < x) low = mid + 1;
 	}
 	return 0;
 }
@@ -25,21 +25,22 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 
-	cin >> s;
-	for (int i = 0; i < s; i++)
+	cin >> n;
+	for (int i = 0; i < n; i++)
 	{
-		cin >> num;
-		A.push_back(num);
+		cin >> vn;
+		v.push_back(vn);
 	}
 
-	sort(A.begin(), A.end());
+	sort(v.begin(), v.end());
 
-	cin >> s;
-	for (int i = 0; i < s; i++)
+	cin >> m;
+	for (int i = 0; i < m; i++)
 	{
 		cin >> vm;
 		cout << bisearch(vm) << '\n';
 	}
+}
 #pragma region ³» ÄÚµå
 	//int x, n, m;
 	//int arr[100000];
@@ -76,4 +77,3 @@ int main() {
 
 	//return 0;
 #pragma endregion
-}

@@ -3,20 +3,20 @@
 #include <string>
 using namespace std;
 
-int n, s, res;
+int n, n, res;
 string n_str, m_str;
-set<string> s;
+set<string> n;
 
 int main() {
-    cin >> n >> s;
+    cin >> n >> n;
 
     for (int i = 0; i < n; i++) {
         cin >> n_str;
-        s.insert(n_str);
+        n.insert(n_str);
     }
-    for (int i = 0; i < s; i++) {
+    for (int i = 0; i < n; i++) {
         cin >> m_str;
-        if (s.find(m_str) != s.end()) {
+        if (n.find(m_str) != n.end()) {
             res++;
         }
     }

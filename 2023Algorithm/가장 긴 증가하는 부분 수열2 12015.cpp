@@ -4,27 +4,27 @@
 using namespace std;
 
 vector<int> v;
-int s, res, num;
+int n, res, num_n;
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> s;
+	cin >> n;
 	v.push_back(-1);
-	for (int i = 0; i < s; i++)
+	for (int i = 0; i < n; i++)
 	{
-		cin >> num;
+		cin >> num_n;
 
-		if (num > v.back()) { // numÀÌ ´õ Å©¸é? °Á ³Ö±â
-			v.push_back(num);
+		if (num_n > v.back()) { // numÀÌ ´õ Å©¸é? °Á ³Ö±â
+			v.push_back(num_n);
 			res++;
 		}
 		// 1 => 1
 		// 1 2 => 2
 		else { // µ¤¾î¹ö·Á.
-			vector<int>::iterator iter = lower_bound(v.begin(), v.end(), num);
-			*iter = num;
+			vector<int>::iterator iter = lower_bound(v.begin(), v.end(), num_n);
+			*iter = num_n;
 		}
 	}
 	cout << res;

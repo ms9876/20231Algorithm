@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int s;
+int n;
 void f2(int x) {
 	if (x == 0) {
 		return;
@@ -11,6 +11,6 @@ void f2(int x) {
 }
 
 int main() {
-	cin >> s;
-	f2(s);
+	cin >> n;
+	f2(n);
 }

@@ -7,21 +7,21 @@ using namespace std;
 vector<int> a;
 vector<int> b;
 int n;
-int num;
+int num_n;
 
 int main()
 {
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
-		cin >> num;
-		a.push_back(num);
+		cin >> num_n;
+		a.push_back(num_n);
 	}
 
 	for (int i = 0; i < n; i++)
 	{
-		cin >> num;
-		b.push_back(num);
+		cin >> num_n;
+		b.push_back(num_n);
 	}
 
 	sort(a.begin(), a.end());

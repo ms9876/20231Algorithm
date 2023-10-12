@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-int s, k;
+int n, k;
 int res, result;
 int arr[] = { 1,2,2,3,3,5,5,5,6 };
 vector <int> v = { 1,1,2,2,3,3,4,4,5 };
@@ -13,7 +13,7 @@ int main()
     //cout << lower_bound(arr, arr + 9, 4) - arr << endl; // 5Ãâ·Â ( ÁÖ¼Ò°¡ ³ª¿È )
     //int test = *lower_bound(arr, arr + 9, 4); ÀÌ°Ô Âð 5
 
-    cin >> s >> k;
+    cin >> n >> k;
 
     int low = 1;
     long long int high = k;
@@ -22,9 +22,9 @@ int main()
     {
         res = 0;
         mid = (low + high) / 2;
-        for (int i = 1; i <= s; i++)
+        for (int i = 1; i <= n; i++)
         {
-            res += min(mid / i, s);
+            res += min(mid / i, n);
         }
         if (res < k)
         {

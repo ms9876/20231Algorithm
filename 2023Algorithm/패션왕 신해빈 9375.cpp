@@ -26,26 +26,26 @@ using namespace std;
 //#pragma endregion
 
 #pragma region ¼±»ý´Ô ÄÚµå
-int testcase, s, result;
+int testcase, n, result;
 string name, tag;
-map<string, int> s;
+map<string, int> n;
 int main() {
     cin >> testcase;
     for (int i = 0; i < testcase; i++)
     {
         result = 1;
-        cin >> s;
-        for (int i = 0; i < s; i++)
+        cin >> n;
+        for (int i = 0; i < n; i++)
         {
             cin >> name >> tag;
-            s[tag]++;
+            n[tag]++;
         }
-        for (const auto& iter : s)
+        for (const auto& iter : n)
         {
             result *= (iter.second +1);
         }
         cout << result - 1 << '\n';
-        s.clear();
+        n.clear();
     }
 }
 #pragma endregion

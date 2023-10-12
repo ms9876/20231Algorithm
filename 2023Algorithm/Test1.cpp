@@ -1,67 +1,45 @@
 #include <iostream>
 #include <vector>
-#include <queue>
+#include <algorithm>
 using namespace std;
 
-int n, m, k, a, b;
-vector<vector<int>> arr;
-int visited[1001];
-queue<int> q;
+int n, num_n;
+int m, num_m;
+vector<int> v;
 
-void DFS(int v) {
+int Binary(int x) {
+	int left = 0;
+	int right = n - 1;
 
-    visited[v] = 1;
-
-    for (int i = 0; i < arr[v].size(); ++i) {
-
-        if (visited[arr[v][i]] == 0) {
-
-            cout << " " << arr[v][i];
-            DFS(arr[v][i]);
-        }
-    }
+	while (left <= right)
+	{
+		int mid = (left + right) / 2;
+		if (v[mid] == x) return 1;
+		else if (v[mid] > x) right = mid - 1;
+		else if (v[mid] < x) left = mid + 1;
+	}
+	return 0;
 }
 
-void BFS(int v) {
-
-    visited[v] = 1;
-    q.push(v);
-
-    while (!q.empty()) {
-
-        int now = q.front();
-        q.pop();
-
-        for (int i = 0; i < arr[now].size(); ++i) {
-
-            if (visited[arr[now][i]] == 0) {
-
-                cout << " " << arr[now][i];
-                q.push(arr[now][i]);
-                visited[arr[now][i]] = 1;
-            }
-        }
-    }
-}
 
 int main() {
-    //https://www.acmicpc.net/problem/1260
+	ios_base::sync_with_stdio(false);
+	cin.tie(0);
+	cout.tie(0);
 
-    cin >> n >> m >> k;
-    arr.resize(m + 1);
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		cin >> num_n;
+		v.push_back(num_n);
+	}
 
-    for (int i = 0; i < m; ++i) {
+	sort(v.begin(), v.end());
 
-        cin >> a >> b;
-        arr[a].push_back(b);
-    }
-
-    cout << k;
-    DFS(k);
-
-    cout << endl;
-    fill_n(visited, 1001, 0);
-
-    cout << k;
-    BFS(k);
+	cin >> m;
+	for (int i = 0; i < m; i++)
+	{
+		cin >> num_m;
+		cout << Binary(num_m) << '\n';
+	}
 }

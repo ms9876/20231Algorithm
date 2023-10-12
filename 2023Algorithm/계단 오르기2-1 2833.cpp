@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int s, k, res;
+int n, k, res;
 
 void s(int x, int y) {
     if (x > s || y >= k) {

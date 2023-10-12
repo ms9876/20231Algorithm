@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int s;
+int n;
 int F5(int n)
 {
 	if (n <= 2)
@@ -13,7 +13,7 @@ int F5(int n)
 
 int main() {
 	cout << "몇번째 수가 알고 싶으십니까? : ";
-	cin >> s;
+	cin >> n;
 
-	cout << F5(s) << "입니다";
+	cout << F5(n) << "입니다";
 }

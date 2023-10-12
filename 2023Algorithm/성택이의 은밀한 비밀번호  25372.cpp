@@ -2,13 +2,13 @@
 using namespace std;
 
 int n;
-string s;
+string n;
 
 int main() {
 	cin >> n;
 	for (int i = 0; i < n; i++) {
-		cin >> s;
-		if (6 <= s.size() && s.size() <= 9) 
+		cin >> n;
+		if (6 <= n.size() && n.size() <= 9) 
 			cout << "yes" << endl;
 		else cout << "no" << endl;
 	}

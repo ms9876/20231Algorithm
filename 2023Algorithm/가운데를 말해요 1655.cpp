@@ -1,7 +1,7 @@
 #include<iostream>
 #include<queue>
 using namespace std;
-int s;
+int n;
 priority_queue<int> pqmax; // 작은것들의 max값이 top
 // 큰것들의 min값이 top
 priority_queue<int, vector<int>, greater<int>> pqmin;
@@ -10,8 +10,8 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
-    cin >> s;
-    for (int i = 0; i < s; i++)
+    cin >> n;
+    for (int i = 0; i < n; i++)
     {
         int pqn;
         cin >> pqn;

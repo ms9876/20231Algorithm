@@ -4,14 +4,14 @@
 #include <deque>
 using namespace std;
 deque<int> card;
-int s;
+int n;
 vector<int> v;
 int main() {
-	cin >> s;
+	cin >> n;
 
-	v.resize(s);
+	v.resize(n);
 
-	for (int i = s -1; i >= 0; i--) {
+	for (int i = n -1; i >= 0; i--) {
 		cin >> v[i];
 	}
 	/*int vn;
@@ -20,7 +20,7 @@ int main() {
 		v.push_back(vn);
 	}*/
 
-	for (int i = 0; i < s; i++) {
+	for (int i = 0; i < n; i++) {
 		if (v[i] == 1) {
 			card.push_front(i + 1);
 		}

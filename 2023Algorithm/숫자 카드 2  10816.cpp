@@ -4,23 +4,23 @@
 using namespace std;
 
 int arr[500001];
-int s, s, c;
+int n, n, c;
 
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
 
-	cin >> s;
-	for (int i = 0; i < s; i++) {
+	cin >> n;
+	for (int i = 0; i < n; i++) {
 		cin >> c;
 		arr[i] = c;
 	}
-	sort(arr, arr + s);
+	sort(arr, arr + n);
 
-	cin >> s;
-	for (int i = 0; i < s; i++) {
+	cin >> n;
+	for (int i = 0; i < n; i++) {
 		cin >> c;
-		cout << upper_bound(arr, arr + s, c) - lower_bound(arr, arr + s, c) << " ";
+		cout << upper_bound(arr, arr + n, c) - lower_bound(arr, arr + n, c) << " ";
 	}
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int s, k, s = 2;
+int n, k, n = 2;
 
 int s(int oo, int y) {
 

@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 string str, cnt;
-stack <char> s;
+stack <char> n;
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
@@ -14,26 +14,26 @@ int main() {
     for (int i = 0; i < str.size(); i++) {
         if ('A' <= str[i] && str[i] <= 'Z') { cnt += str[i]; continue; }
 
-        if (str[i] == '(') { s.push(str[i]); continue; }
+        if (str[i] == '(') { n.push(str[i]); continue; }
 
         if (str[i] == ')') {
-            while (s.top() != '(')
-                cnt += s.top(), s.pop();
-            s.pop();
+            while (n.top() != '(')
+                cnt += n.top(), n.pop();
+            n.pop();
             continue;
         }
         if (str[i] == '*' || str[i] == '/') {
-            while (!s.empty() && (s.top() == '*' || s.top() == '/'))
-                cnt += s.top(), s.pop();
+            while (!n.empty() && (n.top() == '*' || n.top() == '/'))
+                cnt += n.top(), n.pop();
         }
         else {
-            while (!s.empty() && s.top() != '(')
-                cnt += s.top(), s.pop();
+            while (!n.empty() && n.top() != '(')
+                cnt += n.top(), n.pop();
         }
-        s.push(str[i]);
+        n.push(str[i]);
     }
 
-    while (!s.empty())
-        cnt += s.top(), s.pop();
+    while (!n.empty())
+        cnt += n.top(), n.pop();
     cout << cnt << '\n';
 }
