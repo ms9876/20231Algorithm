@@ -381,5 +381,11 @@
     <ClCompile Include="이진 검색 트리 5639.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="트리의 부모 찾기 11725.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="홍익대학교 16394.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
