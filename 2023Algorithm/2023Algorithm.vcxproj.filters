@@ -387,5 +387,8 @@
     <ClCompile Include="홍익대학교 16394.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="A+B 1000.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
