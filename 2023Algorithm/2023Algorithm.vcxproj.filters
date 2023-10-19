@@ -16,6 +16,9 @@
     <Filter Include="Test">
       <UniqueIdentifier>{ac77335d-f0ad-4f30-b9e1-e18931957205}</UniqueIdentifier>
     </Filter>
+    <Filter Include="기타">
+      <UniqueIdentifier>{173a7de4-525a-4eb0-96a1-90e79143b0d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="가장 큰 운동장 1289.cpp">
@@ -389,6 +392,9 @@
     </ClCompile>
     <ClCompile Include="A+B 1000.cpp">
       <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="메이플스토리 새로운 직업 고르기 (nypc).cpp">
+      <Filter>기타</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
