@@ -396,5 +396,11 @@
     <ClCompile Include="메이플스토리 새로운 직업 고르기 (nypc).cpp">
       <Filter>기타</Filter>
     </ClCompile>
+    <ClCompile Include="의상 42578 (프로그래머스).cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="약수 구하기 2501.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
