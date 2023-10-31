@@ -402,5 +402,11 @@
     <ClCompile Include="약수 구하기 2501.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="베스트앨범 42579.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="flag에 따라 다른 값 반환하기 181933.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
