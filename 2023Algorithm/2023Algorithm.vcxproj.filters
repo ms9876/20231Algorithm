@@ -411,5 +411,8 @@
     <ClCompile Include="홀짝에 따라 다른 값 반환하기 181935.cpp">
       <Filter>프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="소문자로 바꾸기 181876.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
