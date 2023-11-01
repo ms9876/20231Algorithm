@@ -39,16 +39,7 @@
     <ClCompile Include="팩토리얼 1912.cpp">
       <Filter>백준</Filter>
     </ClCompile>
-    <ClCompile Include="n까지의 합 1905.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
     <ClCompile Include="홀수 출력하기 1904.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="1부터 n까지 역순으로 출력하기 1902.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="1부터 n까지 출력하기 1901.cpp">
       <Filter>백준</Filter>
     </ClCompile>
     <ClCompile Include="벽장 문 이동 4439.cpp">
@@ -84,9 +75,6 @@
     <ClCompile Include="이진탐색.cpp">
       <Filter>백준</Filter>
     </ClCompile>
-    <ClCompile Include="1부터 n까지의 합.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
     <ClCompile Include="수 찾기 1920.cpp">
       <Filter>백준</Filter>
     </ClCompile>
@@ -118,9 +106,6 @@
       <Filter>백준</Filter>
     </ClCompile>
     <ClCompile Include="거꾸로 출력하기3 1402.cpp">
-      <Filter>백준</Filter>
-    </ClCompile>
-    <ClCompile Include="0은 빼! 3117.cpp">
       <Filter>백준</Filter>
     </ClCompile>
     <ClCompile Include="수식 계산1 3127.cpp">
@@ -406,6 +391,24 @@
       <Filter>프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="flag에 따라 다른 값 반환하기 181933.cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="0은 빼! 3117 %28코드업%29.cpp">
+      <Filter>기타</Filter>
+    </ClCompile>
+    <ClCompile Include="1부터 n까지 역순으로 출력하기 1902 %28코드업%29.cpp">
+      <Filter>기타</Filter>
+    </ClCompile>
+    <ClCompile Include="1부터 n까지 출력하기 1901 %28코드업%29.cpp">
+      <Filter>기타</Filter>
+    </ClCompile>
+    <ClCompile Include="1부터 n까지의 합.cpp">
+      <Filter>기타</Filter>
+    </ClCompile>
+    <ClCompile Include="n까지의 합 1905 %28코드업%29.cpp">
+      <Filter>기타</Filter>
+    </ClCompile>
+    <ClCompile Include="홀짝에 따라 다른 값 반환하기 181935.cpp">
       <Filter>프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>

@@ -4,6 +4,7 @@
 using namespace std;
 
 int arr[51];
+
 int main() {
     int n, result;
 
