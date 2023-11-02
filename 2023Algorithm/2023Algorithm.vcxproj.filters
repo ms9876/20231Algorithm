@@ -414,5 +414,8 @@
     <ClCompile Include="소문자로 바꾸기 181876.cpp">
       <Filter>프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="정수 부분 181850 (프로그래머스).cpp">
+      <Filter>프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
