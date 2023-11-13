@@ -32,9 +32,6 @@ int main() {
 			result = mid;
 			low = mid + 1;
 		}
-		/*
-		if (result == m)
-			break;*/
 	}
 	cout << result;
 }

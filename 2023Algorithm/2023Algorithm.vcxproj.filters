@@ -417,5 +417,8 @@
     <ClCompile Include="정수 부분 181850 (프로그래머스).cpp">
       <Filter>프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="나무 자르기 2805 (upper_bound).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
