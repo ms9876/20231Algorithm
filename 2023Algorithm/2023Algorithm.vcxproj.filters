@@ -420,5 +420,8 @@
     <ClCompile Include="나무 자르기 2805 (upper_bound).cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="먹을 것인가 먹힐 것인가 7795.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
