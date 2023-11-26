@@ -1,19 +1,49 @@
-#include <string>
+#include <iostream>
+#include <algorithm>
 #include <vector>
-#include <unordered_map>
 
 using namespace std;
 
-int solution(vector<vector<string>> clothes) {
-    unordered_map<string, int> um;
+vector<long long> tree;
 
-    for (int i = 0; i < clothes.size(); i++)
-    {
-        um[clothes[i][1]] += 1;
-    }
-    int answer = 1;
-    for (auto n : um) {
-        answer *= (n.second + 1);
-    }
-    return answer - 1;
+
+int b(long long n, long long m) {
+	long long left = 1, right = n, mid, sum;
+
+	while (left <= right)
+	{
+		mid = (left + right) / 2;
+
+		sum = 0;
+
+		for (auto i : tree) {
+			if (i > sum) {
+				sum += i - mid;
+			}
+		}
+
+		if (sum < m) {
+			right = mid - 1;
+		}
+		else
+			left = mid + 1;
+	}
+
+	return right;
+}
+
+int main() {
+	long long n, m;
+
+	cin >> n >> m;
+	tree.resize(n);
+
+	for (long long i = 0; i < n; i++)
+	{
+		cin >> tree[i];
+	}
+	sort(tree.begin(), tree.end());
+
+	cout << b(tree.back(), m);
+
 }

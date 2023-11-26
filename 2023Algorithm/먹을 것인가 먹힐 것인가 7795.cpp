@@ -13,6 +13,7 @@ int main() {
 	cout.tie(0);
 
 	cin >> t;
+
 	for (int tc = 1; tc <= t; tc++) {
 		ret = 0;
 		v.clear(); v1.clear();
