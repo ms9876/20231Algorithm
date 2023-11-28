@@ -426,5 +426,8 @@
     <ClCompile Include="세금 20492.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="파도반 수열 9461.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

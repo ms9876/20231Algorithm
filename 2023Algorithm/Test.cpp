@@ -1,49 +1,18 @@
 #include <iostream>
-#include <algorithm>
-#include <vector>
-
+#include "vector"
 using namespace std;
 
-vector<long long> tree;
-
-
-int b(long long n, long long m) {
-	long long left = 1, right = n, mid, sum;
-
-	while (left <= right)
-	{
-		mid = (left + right) / 2;
-
-		sum = 0;
-
-		for (auto i : tree) {
-			if (i > sum) {
-				sum += i - mid;
-			}
-		}
-
-		if (sum < m) {
-			right = mid - 1;
-		}
-		else
-			left = mid + 1;
-	}
-
-	return right;
-}
-
 int main() {
-	long long n, m;
+    int n;
+    cin >> n;
 
-	cin >> n >> m;
-	tree.resize(n);
+    vector<long long> v(n + 1);
+    v[0] = v[1] = 1;
 
-	for (long long i = 0; i < n; i++)
-	{
-		cin >> tree[i];
-	}
-	sort(tree.begin(), tree.end());
-
-	cout << b(tree.back(), m);
-
+    for (int i = 2; i <= n; i++)
+    {
+        v[i] = v[i - 1] + v[i - 2] + 1;
+    }
+    cout << v[n];
+    return 0;
 }
