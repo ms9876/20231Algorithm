@@ -429,5 +429,11 @@
     <ClCompile Include="파도반 수열 9461.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="파스칼의 삼각형 16395.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="아! 4999.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
