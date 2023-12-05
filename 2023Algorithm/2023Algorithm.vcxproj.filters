@@ -444,5 +444,11 @@
     <ClCompile Include="2×n 타일링 2 11727.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="동전 거스르기.cpp">
+      <Filter>기타</Filter>
+    </ClCompile>
+    <ClCompile Include="1로 만들기 1463.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
