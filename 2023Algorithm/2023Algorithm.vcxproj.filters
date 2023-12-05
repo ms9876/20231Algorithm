@@ -441,5 +441,8 @@
     <ClCompile Include="모음의 개수 1264.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="2×n 타일링 2 11727.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
