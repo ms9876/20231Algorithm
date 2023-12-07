@@ -450,5 +450,11 @@
     <ClCompile Include="1로 만들기 1463.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="동전1 2293.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="크냐(물음표) 4101.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
