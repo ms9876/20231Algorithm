@@ -456,5 +456,8 @@
     <ClCompile Include="크냐(물음표) 4101.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="입실 관리 5524.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
