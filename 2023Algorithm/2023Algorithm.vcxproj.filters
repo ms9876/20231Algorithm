@@ -459,5 +459,8 @@
     <ClCompile Include="입실 관리 5524.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="동전 0 11047.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
