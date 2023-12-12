@@ -462,5 +462,11 @@
     <ClCompile Include="동전 0 11047.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="수의 곱셉.cpp">
+      <Filter>기타</Filter>
+    </ClCompile>
+    <ClCompile Include="회의실 배정 1931.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
