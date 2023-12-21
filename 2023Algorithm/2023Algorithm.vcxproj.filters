@@ -471,5 +471,23 @@
     <ClCompile Include="백준\분산처리 1009.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="기타\7의 개수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\문자열 내 p와 y의 개수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\가까운 수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\A로 B 만들기.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\2차원으로 만들기.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\숨어있는 숫자들의 뎃셈.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
