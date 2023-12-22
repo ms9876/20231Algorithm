@@ -489,5 +489,8 @@
     <ClCompile Include="기타\숨어있는 숫자들의 뎃셈.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\일곱난쟁이 2309.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
