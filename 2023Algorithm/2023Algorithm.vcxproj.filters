@@ -492,5 +492,8 @@
     <ClCompile Include="백준\일곱난쟁이 2309.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\직사각형 27323.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
