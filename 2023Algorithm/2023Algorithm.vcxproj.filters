@@ -495,5 +495,11 @@
     <ClCompile Include="백준\직사각형 27323.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\엄청난 부자2 1271.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준\세수정렬 2752.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
