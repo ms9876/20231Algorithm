@@ -513,5 +513,8 @@
     <ClCompile Include="백준\수 정렬하기 3 10989.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\삼각형 외우기 10101.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
