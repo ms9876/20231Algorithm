@@ -525,5 +525,11 @@
     <ClCompile Include="백준\몇개고 27294.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\10부제 10797.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="백준\스택 2 28278.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
