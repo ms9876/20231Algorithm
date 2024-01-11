@@ -537,5 +537,8 @@
     <ClCompile Include="백준\저작권 2914.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\균형잡힌 세상 4949.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
