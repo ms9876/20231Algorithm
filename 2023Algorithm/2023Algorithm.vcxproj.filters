@@ -543,5 +543,8 @@
     <ClCompile Include="백준\열 개씩 끊어 출력하기 11721.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\도키도키 간식드리미 12789.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
