@@ -549,5 +549,8 @@
     <ClCompile Include="백준\뉴비의 기준은 뭘까 19944.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\플러그 2010.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
