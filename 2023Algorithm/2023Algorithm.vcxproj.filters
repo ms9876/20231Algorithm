@@ -552,5 +552,8 @@
     <ClCompile Include="백준\플러그 2010.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\덱 2  28279.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
