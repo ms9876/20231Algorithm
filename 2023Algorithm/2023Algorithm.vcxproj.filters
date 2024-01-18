@@ -555,5 +555,8 @@
     <ClCompile Include="백준\덱 2  28279.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\지능형 기차 2455.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
