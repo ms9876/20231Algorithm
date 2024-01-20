@@ -561,5 +561,8 @@
     <ClCompile Include="백준\손익분기점 1712.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\풍선 터뜨리기 2346.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
