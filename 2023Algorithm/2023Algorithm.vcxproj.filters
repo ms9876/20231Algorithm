@@ -567,5 +567,8 @@
     <ClCompile Include="백준\윷놀이 2490.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\거스름돈 14916.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
