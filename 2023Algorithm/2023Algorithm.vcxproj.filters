@@ -576,5 +576,8 @@
     <ClCompile Include="백준\특별한 학교 이름 27889.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\바구니 뒤짚기 10811.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
