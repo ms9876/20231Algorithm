@@ -582,5 +582,8 @@
     <ClCompile Include="백준\카드 게임 5522.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\FBI 2857.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
