@@ -588,5 +588,8 @@
     <ClCompile Include="백준\조별과제를 하려는데 조장이 사라졌다 15727.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\제리와 톰 16430.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
