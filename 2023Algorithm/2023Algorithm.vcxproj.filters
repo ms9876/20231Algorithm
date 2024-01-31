@@ -591,5 +591,8 @@
     <ClCompile Include="백준\제리와 톰 16430.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\와이버스 부릉부릉 14645.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
