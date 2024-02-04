@@ -597,5 +597,8 @@
     <ClCompile Include="백준\대소문자 바꾸기 2744.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\콜센터 5339.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
