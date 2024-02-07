@@ -603,5 +603,8 @@
     <ClCompile Include="백준\자동완성 24883.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\체육은 코딩과목 입니다 28295.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
