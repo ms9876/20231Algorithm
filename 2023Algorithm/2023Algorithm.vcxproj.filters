@@ -615,5 +615,8 @@
     <ClCompile Include="백준\방학 숙제 5532.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\뜨거운 붕어빵 11945.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
