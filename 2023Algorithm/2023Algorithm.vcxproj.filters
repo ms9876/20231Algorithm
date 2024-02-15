@@ -630,5 +630,8 @@
     <ClCompile Include="백준\스타워즈 로고 9653.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\햄버거 만들기 25628.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
