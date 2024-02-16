@@ -633,5 +633,8 @@
     <ClCompile Include="백준\햄버거 만들기 25628.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Hello Judge 9316.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
