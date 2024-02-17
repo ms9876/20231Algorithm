@@ -636,5 +636,8 @@
     <ClCompile Include="백준\Hello Judge 9316.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\양말 짝 맞추기 28431.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
