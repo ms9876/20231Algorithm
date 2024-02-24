@@ -651,5 +651,8 @@
     <ClCompile Include="백준\치즈버거 만들기 30017.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\배수와 약수 5086.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
