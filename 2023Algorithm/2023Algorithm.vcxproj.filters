@@ -654,5 +654,8 @@
     <ClCompile Include="백준\배수와 약수 5086.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\감마선을 맞은 컴퓨터 30402.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
