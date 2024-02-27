@@ -660,5 +660,8 @@
     <ClCompile Include="백준\럭비 클럽 2083.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\나머지 10430.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
