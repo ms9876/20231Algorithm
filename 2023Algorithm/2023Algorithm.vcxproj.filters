@@ -666,5 +666,8 @@
     <ClCompile Include="백준\Hook 10189.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Serca 26766.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
