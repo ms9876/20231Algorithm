@@ -672,5 +672,8 @@
     <ClCompile Include="백준\베라의 패션 15439.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Shares 3733.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

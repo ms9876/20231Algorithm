@@ -200,6 +200,7 @@
     <ClCompile Include="백준\Hook 10189.cpp" />
     <ClCompile Include="백준\Rook 2393.cpp" />
     <ClCompile Include="백준\Serca 26766.cpp" />
+    <ClCompile Include="백준\Shares 3733.cpp" />
     <ClCompile Include="백준\Who is in the middle 6840.cpp" />
     <ClCompile Include="백준\감마선을 맞은 컴퓨터 30402.cpp" />
     <ClCompile Include="백준\거스름돈 14916.cpp">
