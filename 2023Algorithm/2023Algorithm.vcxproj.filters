@@ -675,5 +675,8 @@
     <ClCompile Include="백준\Shares 3733.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\민주주의 30999.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
