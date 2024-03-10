@@ -687,5 +687,8 @@
     <ClCompile Include="백준\Bottle Return 21300.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\초코바 27959.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
