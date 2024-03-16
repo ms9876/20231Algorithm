@@ -696,5 +696,8 @@
     <ClCompile Include="백준\호반우가 학교에 지각한 이유 1 30468.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\별 찍기 - 14 2556.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
