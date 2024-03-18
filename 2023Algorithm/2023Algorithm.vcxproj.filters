@@ -699,5 +699,8 @@
     <ClCompile Include="백준\별 찍기 - 14 2556.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Rectangles 15232.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
