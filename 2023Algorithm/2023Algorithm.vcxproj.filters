@@ -702,5 +702,8 @@
     <ClCompile Include="백준\Rectangles 15232.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\스택 10828.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
