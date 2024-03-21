@@ -705,5 +705,8 @@
     <ClCompile Include="백준\스택 10828.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\코드마스터 2023 28235.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
