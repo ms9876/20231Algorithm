@@ -714,5 +714,8 @@
     <ClCompile Include="백준\특별한 날 10768.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Everyone is a winner 31450.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
