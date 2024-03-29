@@ -723,5 +723,8 @@
     <ClCompile Include="백준\스위트콘 가격 구하기 30030.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\소수 찾기 1978.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
