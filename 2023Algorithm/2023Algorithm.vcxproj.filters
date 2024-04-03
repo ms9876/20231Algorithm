@@ -733,4 +733,7 @@
       <Filter>백준</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="백준\solved.ac 18110" />
+  </ItemGroup>
 </Project>
