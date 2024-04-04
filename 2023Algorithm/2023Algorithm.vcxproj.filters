@@ -732,6 +732,9 @@
     <ClCompile Include="백준\심부름 가는 길 5554.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\중복 빼고 정렬하기 10867.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
