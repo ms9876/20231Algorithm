@@ -741,6 +741,9 @@
     <ClCompile Include="백준\덱 10866.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\2007 1924.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
