@@ -747,6 +747,9 @@
     <ClCompile Include="백준\팰린드롬수 1259.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\홀수 2576.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
