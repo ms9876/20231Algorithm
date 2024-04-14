@@ -750,6 +750,9 @@
     <ClCompile Include="백준\홀수 2576.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\나는 행복합니다 14652.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
