@@ -628,6 +628,7 @@
     </ClCompile>
     <ClCompile Include="백준\호반우가 학교에 지각한 이유 1 30468.cpp" />
     <ClCompile Include="백준\홀수 2576.cpp" />
+    <ClCompile Include="백준\후위 표기식2 1935.cpp" />
     <ClCompile Include="코드업\0은 빼! 3117 %28코드업%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
