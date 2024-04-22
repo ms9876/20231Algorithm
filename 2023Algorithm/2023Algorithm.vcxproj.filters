@@ -762,6 +762,9 @@
     <ClCompile Include="백준\세 수 10817.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Gum Gum for Jay Jay 26489.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
