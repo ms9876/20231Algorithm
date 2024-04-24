@@ -191,6 +191,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="백준\A+B - 6 10953.cpp" />
     <ClCompile Include="백준\Adding Trouble 31654.cpp" />
     <ClCompile Include="백준\Everyone is a winner 31450.cpp" />
     <ClCompile Include="백준\FBI 2857.cpp">
