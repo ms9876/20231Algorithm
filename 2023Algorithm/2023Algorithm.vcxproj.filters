@@ -774,6 +774,9 @@
     <ClCompile Include="백준\국회의원 선거 1417.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\세제곱의 합 28701.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
