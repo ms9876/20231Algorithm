@@ -777,6 +777,9 @@
     <ClCompile Include="백준\세제곱의 합 28701.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\소트인사이드 1427.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
