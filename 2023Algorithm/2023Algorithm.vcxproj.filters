@@ -780,6 +780,9 @@
     <ClCompile Include="백준\소트인사이드 1427.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\생일 5635.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
