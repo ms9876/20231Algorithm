@@ -786,6 +786,9 @@
     <ClCompile Include="백준\커트라인 25305.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\헌내기는 친구가 필요해 21736.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
