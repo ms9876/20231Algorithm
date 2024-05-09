@@ -804,6 +804,9 @@
     <ClCompile Include="백준\분해합 2231.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\세로읽기 10798.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
