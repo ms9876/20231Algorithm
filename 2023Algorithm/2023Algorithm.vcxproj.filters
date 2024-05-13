@@ -816,6 +816,9 @@
     <ClCompile Include="백준\수도요금 10707.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Mathematics 26545.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
