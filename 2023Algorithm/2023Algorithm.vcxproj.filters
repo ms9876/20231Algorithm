@@ -828,6 +828,9 @@
     <ClCompile Include="백준\예산 2512.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\짝수를 찾아라 3058.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
