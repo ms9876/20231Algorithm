@@ -837,6 +837,9 @@
     <ClCompile Include="백준\수학은 비대면강의입니다 19532.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\피시방 알바 1453.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
