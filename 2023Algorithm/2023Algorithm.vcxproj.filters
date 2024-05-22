@@ -843,6 +843,9 @@
     <ClCompile Include="백준\과목선택 11948.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\숨바꼭질 1697.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
