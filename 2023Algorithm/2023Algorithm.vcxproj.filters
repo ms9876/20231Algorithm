@@ -846,6 +846,9 @@
     <ClCompile Include="백준\숨바꼭질 1697.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\SUAPC 2023 Summer 31429.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
