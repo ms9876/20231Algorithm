@@ -852,6 +852,9 @@
     <ClCompile Include="백준\체스판 다시 칠하기 1018.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\지능형 기차 2 2460.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
