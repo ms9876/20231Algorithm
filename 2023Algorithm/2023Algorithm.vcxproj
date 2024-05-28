@@ -658,6 +658,7 @@
     </ClCompile>
     <ClCompile Include="백준\지능형 기차 2 2460.cpp" />
     <ClCompile Include="백준\체스판 다시 칠하기 1018.cpp" />
+    <ClCompile Include="백준\치킨 쿠폰 1673.cpp" />
     <ClCompile Include="백준\피시방 알바 1453.cpp" />
     <ClCompile Include="백준\중복 빼고 정렬하기 10867.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
