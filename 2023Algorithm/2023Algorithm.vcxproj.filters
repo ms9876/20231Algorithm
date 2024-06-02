@@ -870,6 +870,9 @@
     <ClCompile Include="백준\벌집 2292.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Final Price 28224.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
