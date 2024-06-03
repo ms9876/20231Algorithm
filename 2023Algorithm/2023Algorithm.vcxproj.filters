@@ -873,6 +873,9 @@
     <ClCompile Include="백준\Final Price 28224.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\Celebrity jeopardy 3765.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
