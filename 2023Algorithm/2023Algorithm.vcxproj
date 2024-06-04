@@ -661,6 +661,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="백준\좌표 정렬하기 2 11651.cpp" />
     <ClCompile Include="백준\지능형 기차 2 2460.cpp" />
     <ClCompile Include="백준\체스판 다시 칠하기 1018.cpp" />
     <ClCompile Include="백준\치킨 쿠폰 1673.cpp" />
