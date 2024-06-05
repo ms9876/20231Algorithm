@@ -879,6 +879,9 @@
     <ClCompile Include="백준\좌표 정렬하기 2 11651.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\돌 게임 2 9656.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
