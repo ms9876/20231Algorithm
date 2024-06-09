@@ -888,6 +888,9 @@
     <ClCompile Include="백준\서로 다른 부분 문자열의 개수 11478.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\마인크래프트 18111.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
