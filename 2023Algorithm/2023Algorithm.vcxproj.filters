@@ -894,6 +894,9 @@
     <ClCompile Include="백준\ATM 11399.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\보석 도둑 1202.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
