@@ -906,6 +906,9 @@
     <ClCompile Include="백준\할로윈의 사탕 10178.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\웰컴 키트 30802.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
