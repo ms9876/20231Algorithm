@@ -675,6 +675,7 @@
     </ClCompile>
     <ClCompile Include="백준\좌표 정렬하기 2 11651.cpp" />
     <ClCompile Include="백준\지능형 기차 2 2460.cpp" />
+    <ClCompile Include="백준\집 주소 1284.cpp" />
     <ClCompile Include="백준\체스판 다시 칠하기 1018.cpp" />
     <ClCompile Include="백준\치킨 쿠폰 1673.cpp" />
     <ClCompile Include="백준\프린터 큐 1966.cpp" />

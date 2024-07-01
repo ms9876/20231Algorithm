@@ -918,6 +918,9 @@
     <ClCompile Include="백준\적어도 대부분의 배수 1145.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\집 주소 1284.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
