@@ -921,6 +921,9 @@
     <ClCompile Include="백준\집 주소 1284.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\반지 5555.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
