@@ -924,6 +924,9 @@
     <ClCompile Include="백준\반지 5555.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\꼬리를 무는 숫자 나열 1598.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
