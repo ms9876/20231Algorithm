@@ -930,6 +930,9 @@
     <ClCompile Include="백준\369 17614.cpp">
       <Filter>백준</Filter>
     </ClCompile>
+    <ClCompile Include="백준\별 찍기 - 16 10991.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="백준\solved.ac 18110" />
